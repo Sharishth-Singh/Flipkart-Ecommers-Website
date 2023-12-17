@@ -8,10 +8,10 @@ Welcome to the Flipkart Clone project, a comprehensive e-commerce platform built
 - Wishlist Add/Remove Items
 - Products Pagination (Default 12 Products Per Page)
 - Product Search (✅)
-- Product Filters Based on Category/Ratings | Price Range
-- Shipping Info in Session Storage
-- My Orders (With All Filters)
-- Order Details of All Ordered Item
+- Product Filters Based on Category/Ratings | Price Range (✅)
+- Shipping Info in Session Storage (✅)
+- My Orders (With All Filters) (✅)
+- Order Details of All Ordered Item (✅)
 - Users will receive mail when order placed with all details
 - Review Products User Account (✅)
 - Admin: Dashboard access to only admin roles (✅)
@@ -19,7 +19,7 @@ Welcome to the Flipkart Clone project, a comprehensive e-commerce platform built
 - Admin: Add/Update Products (✅)
 - Admin: Update User Data | Delete User (✅)
 - Admin: List Review of Product | Delete Review
-- Stock Management: Decrease stock of product when shipped
+- Stock Management: Decrease stock of product when shipped (✅)
 
 - User Authentication:      Secure user registration and login system to ensure a personalized shopping experience. (✅)
 - Product Catalog:          Browse a wide range of products, complete with detailed descriptions, images, and prices.

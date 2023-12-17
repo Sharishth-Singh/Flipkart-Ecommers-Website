@@ -6,6 +6,15 @@ import MetaData from '../layout/MetaData';
 
 const SliderComponent = React.lazy(() => import('./productslider/Productslider'));
 
+        // <Suspense fallback={<div>Loading...</div>}>
+        //   <section>
+        //     {/* <Dealcontainer/> */}
+        //     <SliderComponent category={"electronics"} />
+        //     <SliderComponent category={"women's clothing"} />
+        //     <TopProducts />
+        //     <SliderComponent category={"men's clothing"}/>
+        //   </section>
+        // </Suspense>
 
 const Home = () => {
   return (
@@ -18,15 +27,6 @@ const Home = () => {
         <BannerSlider />
         {/* deal container */}
 
-        <Suspense fallback={<div>Loading...</div>}>
-          <section>
-            {/* <Dealcontainer/> */}
-            <SliderComponent category={"electronics"} />
-            <SliderComponent category={"women's clothing"} />
-            <TopProducts />
-            <SliderComponent category={"men's clothing"}/>
-          </section>
-        </Suspense>
 
 
 

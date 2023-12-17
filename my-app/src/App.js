@@ -44,8 +44,8 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path="/" element={ <Home/>}/>
   
+        <Route path="/" element={ <Home/>}/>
         <Route path="/invoice/:id" element={ <ProtectedRoutes> <Invoice/> </ProtectedRoutes> }/>
         <Route path="/product/:id" element={<ProductDetials/>}/>
         <Route path="/search" element={<Produtcs/>}/>
