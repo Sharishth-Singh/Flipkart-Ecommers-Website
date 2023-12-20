@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
         </div>
           <div className=' border-t p-4 text-center text-white'>
-          <h1>Built By Mahesh Patil -- @Alrights reserved-2022 </h1>
+          <h1>Built By Sharishth Singh -- @Alrights reserved-2023 </h1>
           </div>
         </div>
     )

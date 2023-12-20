@@ -31,8 +31,8 @@ exports.sendEmail = async ( email , username )=>{
     
         // Email content
       const mailOptions = {
-        from: 'maheshpatilhp132@gmail.com',
-        to: 'maheshpatilkg132@gmail.com',
+        from: 'sharishthsingh@gmail.com',
+        to: 'sharishthsingh@iitbhilai.ac.in',
         subject: 'Please Verify your Email Address',
         html: htmlContent(username)
       };
